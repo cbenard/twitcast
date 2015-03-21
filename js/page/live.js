@@ -6,6 +6,13 @@
 	  if (loaded) {
 	 //   initializeCastApi();
 	 	console.logv("chromecast loaded (page context): " + loaded);
+
+	 	window.castInstance = new CastPlayer;
+	 	window.castInstance.availabilityChanged = function(e) {
+	 		console.logv('Chromecast availability changed: ' + e);
+	 	};
+	 	castInstance.initialize();
+
 	  } else {
 	    console.log(errorInfo);
 	  }
