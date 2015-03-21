@@ -1,0 +1,29 @@
+{
+	// Required
+	"manifest_version": 2,
+	"name": "TWiT Cast",
+	"version": "0.50",
+
+	// Recommended
+	"description": "Enables Chromecast functionality on the TWiT website.",
+	"author": "Chris Benard",
+	"permissions": [],
+
+	"content_scripts": [
+		{
+			"matches": [ "*://live.twit.tv/" ],
+			"css": [ "css/styles.css" ],
+			"js": [
+				"js/common/config.js",
+				"js/content/live.js"
+			]
+		}
+	],
+
+	"web_accessible_resources": [
+		"js/page/*",
+		"js/common/*",
+		"lib/*",
+		"img/*"
+	]
+}
