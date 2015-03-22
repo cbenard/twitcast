@@ -4,7 +4,8 @@
 
 #chromecast-container {
 	color: black;
-	margin: 200px auto;
+	padding: 200px;
+	margin: auto;
 	width: 400px;
 	text-align: center;
 }
