@@ -1,6 +1,7 @@
-"use strict";
-
 (function() {
+
+	"use strict";
+
 	// From: https://gist.github.com/tavisrudd/1174381
 	// here is the previous snippet without jquery and with proper removal
 	// of the injected script tag.
@@ -18,7 +19,7 @@
 
 	inject_page_script(chrome.runtime.getURL('js/common/config.js'));
 	inject_page_script(chrome.runtime.getURL('js/page/streams.js'));
-	inject_page_script(chrome.runtime.getURL('js/page/castPlayer.js'));
+	inject_page_script(chrome.runtime.getURL('js/page/CastManager.js'));
 	inject_page_script(chrome.runtime.getURL('js/page/interfaceBuilder.js'));
 	inject_page_script(chrome.runtime.getURL('js/page/live.js'));
 	inject_page_script(chrome.runtime.getURL('lib/cast_sender.js'));

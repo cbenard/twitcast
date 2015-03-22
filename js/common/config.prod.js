@@ -1,3 +1,7 @@
-(
-	window.console.logv = function(msg) { }
-)();
+(function() {
+
+	"use strict";
+
+	window.console.logv = function(msg) { };
+
+})();

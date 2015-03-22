@@ -3,5 +3,26 @@
 }
 
 #chromecast-container {
-	font-color: black;
+	color: black;
+	margin: 200px auto;
+	width: 400px;
+	text-align: center;
+}
+
+#chromecast-streamoptions {
+	font-size: 30px;
+	/*height: 80px;*/
+	-webkit-appearance: menulist-button;
+}
+
+#chromecast-container span.button {
+	font-size: 22px;
+	height: 30px;
+	margin: 10px;
+	display: inline-block;
+	width: 100px;
+	color: white;
+	background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHCAgICAgICAgICD/2wBDAQcHBw0MDRgQEBgaFREVGiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wAARCAAeAAUDAREAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAwb/xAAWEAEBAQAAAAAAAAAAAAAAAAAAEgH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgb/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8AlaaNkgWFQFBQa0Kf/9k=);
+	border-radius: 5px;
+	cursor: pointer;
 }
